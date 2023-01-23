@@ -23,129 +23,140 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!--Bootstrap-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
     <!--Logo-->
     <div class="logo">
         <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon" />
   </head>
 
-
   <body>
-    <!--HEADER-->
+    <!--INICIO HEADER: Esto lo reutilizo en todas las paginas de mi sitio-->
     <header>
-      <!--NAV BAR-->
-      <div class="container">
-        <div class="row">
-          <a href="/" class="logo">
-            <img src="imgs/logo.png" alt="Logo" />
-          </a>
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a class="nav__link" href="/">Inicio</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="pages/nosotros.html">Nosotros</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="pages/contacto.html">Contacto</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="pages/proyectos.html">Proyectos</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="pages/principios.html">Principios</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
-
-    <!--SECTION 1 BANNER-->
-    <main>
-      <section id="intro-section">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <h1 class="display-2"></h1>
-              <span class="display-2">Servicios y Consultorías de Project Management</span>
+    <!--NAV BAR-->
+    <div class="container">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a href="/" class="logo">
+              <img src="imgs/logo.png" alt="Logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav_link" href="index.html">Inicio</a>
+                <a class="nav_link" href="pages/nosotros.html">Nosotros</a>
+                <a class="nav_link" href="pages/contacto.html">Contacto</a>
+                <a class="nav_link" href="pages/proyectos.html">Proyectos</a>
+                <a class="nav_link" href="pages/principios.html">Principios</a>
+              </div>
             </div>
+          </div>
+        </nav>
+    </header>
+    <!--FIN HEADER-->
+    
+    <!-- INICIO contenido principal de mi Homepage -->
+    <main>
+      <!--Seccion Banner-->
+      <section id="intro-section">
+        <div class="container.fluid">
+          <div class="row">
+            <h1 class="display-2">Servicios y Consultorías de Project Management</h1>
           </div>
         </div>
       </section>
-      <!--SECTION 2 Titulo y parrafo-->
-      <section id="title-paragraph">
-        <div class="row2">
-          <div class="col2">
-            <div class="titulo-h2">
-              <p>Enfoque Integral.</p>
-              </div>
-              <div class="paragraph">
-              <p>Somos un equipo de profesionales especializados en la gestion de proyectos de diversas industrias.</p>
-            </div>
-          </div>
+
+      <!--Seccion 2 Titulo y parrafo-->
+      <section>
+        <div class="paragraph">
+          <p>Somos un equipo de profesionales especializados en la gestion de proyectos de diversas industrias.</p>
         </div>
       </section>
 
       <!--SECTION 3 Tarjetas-->
-      <section class="container-card">
-        <div class="card">
-            <figure>
-                <img src="imgs/card1.jpeg">
-            </figure>
-            <div class="contenido-card">
-                <h3>Proyectos Sustentables</h3>
-                <p>Ofrecemos asesoramiento sobre sustentabilidad ambiental y económica de tus proyectos.</p>
+      <section class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-4 col-md-4 col-xs-12">
+              <div class="card">
+                <figure>
+                  <img src="imgs/card1.jpeg">
+                </figure>
+                <div class="contenido-tarjeta">
+                    <h3>Proyectos Sustentables</h3>
+                    <p>Ofrecemos asesoramiento sobre sustentabilidad ambiental y económica de tus proyectos.</p>
+                </div>
+              </div>
             </div>
-        </div>
-    
-        <div class="card">
-            <figure>
-              <img src="imgs/card2.webp">
-            </figure>
-            <div class="contenido-card">
-                <h3>Metodologías Agiles</h3>
-                <p>Aseramos, capacitamos y gestionamos proyectos en entornos ágiles y adaptativos a todas las tipologías de proyectos. </p>
+            
+            <div class="col-sm-12 col-lg-4 col-md-4 col-xs-12">
+              <div class="card">
+                <figure>
+                  <img src="imgs/card2.webp">
+                </figure>
+                <div class="contenido-tarjeta">
+                  <h3>Metodologías Agiles</h3>
+                  <p>Asesoramos, capacitamos y gestionamos proyectos en entornos ágiles y adaptativos. </p>
+                </div>
+              </div>
             </div>
-        </div>
 
-        <div class="card">
-            <figure>
-              <img src="imgs/card3.webp">
-            </figure>
-            <div class="contenido-card col-4">
-                <h3>Analisis de Riesgos</h3>
-                <p>Ofrecemos analisis de riesgo, costo, alcance y tiempos previo al imicio de cualquier proyecto./p>
-            </div>
-        </div>
-        </section> 
-      <!--FOOTER-->
-      <section class="footer">
-        <div class="footer">
-          <div class="footer-container">
-              <nav class="nav">
-                <ul class="nav__list2">
-                  <li class="nav_item"
-                  <a href="/" class="logo-footer"></a>
-                  <img src="imgs/logo.png" alt="Logo" />
-                  </a>
-                  </li>
-                  <li class="nav__item">
-                    <a class="nav__link" href="/">CABA, Argentina</a>
-                  </li>
-                  <li class="nav__item">
-                    <a class="nav__link" href="mailto:agustin.fernandezb@gmail.com">Contacto</a>
-                  <li class="nav__item"> 
-                    <a class="nav__link" href="http://www.instagram.com/agustin.fb">Instagram</a>              
-                  <li class="nav__item">
-                    <a class="nav__link" href="https://www.linkedin.com/in/agustinfb/">LinkedIn</a>
-                  </li>
-                </ul>
-              </nav>
+            <div class="col-sm-12 col-lg-4 col-md-4 col-xs-12">
+              <div class="card">
+                <figure>
+                  <img src="imgs/card3.webp">
+                </figure>
+                <div class="contenido-tarjeta">
+                  <h3>Analisis de Riesgos</h3>
+                  <p>Ofrecemos analisis de riesgo, costo, alcance y tiempos previo al imicio de cualquier proyecto.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> 
+    </main>
+    <!-- FIN contenido principal de mi Homepage-->
+
+        <!--FOOTER-->
+        <section class="footer">
+          <div class="footer-container">
+              <div class="row">
+                  <div class="col">
+                      <ul class="nav_list3">
+                          <li class="nav_item">
+                          <a href="/" class="logo">
+                              <img src="../imgs/logo.png" alt="Logo" />
+                          </a>
+                          </li>
+                          <li class="nav_item">
+                          <a class="nav_link" href="/">C.A.B.A.</a>
+                          </li>
+                          <li class="nav_item">
+                          <a class="nav_link" href="mailto:agustin.fernandezb@gmail.com">Contacto</a>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="col">
+                      <ul class="nav_list3">
+                          <li class="nav_item"> 
+                          <div class="col">
+                          <a class="nav_link" href="http://www.instagram.com/agustin.fb">Instagram</a>              
+                          <li class="nav_item">
+                          <a class="nav_link" href="https://www.linkedin.com/in/agustinfb/">LinkedIn</a>
+                          </li>
+                      </ul
+                  </div>
+              </div>
+          </div>
+        </section>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body> 
 </html>
 
