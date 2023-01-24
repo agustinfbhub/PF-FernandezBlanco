@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
   body {
     font-family: "Montserrat";
   }
@@ -34,21 +34,18 @@
     top: 0px;
     z-index: 2;
   }
-  
   .nav_list {
     list-style: none;
     display: flex;
     margin: auto;
     margin-right:0px;
   }
-
   #logo{
     display: block;
     max-width: 50px;
     height: auto;
 
   }
-  
   .navbar-nav {
     display: flex;
     align-items: center;
@@ -56,20 +53,17 @@
     margin: auto;
     margin-right:0px;
   }
-
   .navbar-nav a:hover{
     box-shadow: 0 -7px 0px #fff inset;
     padding:3px;
     transition: all 0.4s ease;
   }
-
   .nav_link {
     color: white;
     display: flex;
     text-transform: uppercase;
     text-decoration: none;
   }
-  
   .nav_link:hover,
   .nav_link:focus {
     opacity: 0.65;
