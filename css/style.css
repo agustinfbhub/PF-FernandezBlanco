@@ -26,7 +26,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: calc(var(--bs-gutter-x) * 1.7);
   }
   
   header {
@@ -48,8 +47,7 @@
     display: block;
     max-width: 50px;
     height: auto;
-    padding:none;
-    margin: none;
+
   }
 
   .nav_list2 {
@@ -63,6 +61,8 @@
   
   .navbar-nav {
     display: flex;
+    align-items: center;
+    column-gap: 50px;
     margin: auto;
     margin-right:0px;
   }
@@ -70,14 +70,14 @@
   .navbar-nav a:hover{
     box-shadow: 0 -7px 0px #fff inset;
     padding:3px;
+    transition: all 0.4s ease;
   }
 
   .nav_link {
     color: white;
+    display: flex;
     text-transform: uppercase;
     text-decoration: none;
-    align-items: center;
-    margin: 0 0 0 3rem;
   }
   
   .nav_link:hover,
@@ -90,7 +90,6 @@
       background-color: #006D77;
       height: 165px;
       width: 100%;
-      margin: 0 auto;
       display:flex;
     }
   
@@ -98,7 +97,6 @@
       background-color: #006D77;
       height: 165px;
       width: 100%;
-      margin: 0 auto;
       display:flex;
       justify-content: center;
   }
@@ -108,6 +106,8 @@
     display: flex;
     align-items: center;
     padding-left: 0px;
+    justify-content: center;
+    column-gap:50px;
   }
   
   /*Estilos Todos los Banners*/
@@ -121,7 +121,6 @@
     top: 300px;
     text-align: center;
     align-items: center;
-    margin:auto;
     justify-content:auto;
   }
 
@@ -184,22 +183,11 @@
     color: #006D77;
     font-size: 18px;
     font-weight: 40;
-    margin-right: 40px;
-    margin-bottom: 40px;
-  }
-
-  .img-box {
-    text-align: right;
-    margin-top: 0;
   }
 
   /*Estilos cajas laterales*/
   .img-box1 {
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 100px;
-    margin-left: 30px;
-    margin-right: 30px;
     width: 533px;
     height: 439px;
     object-fit: contain;
@@ -219,7 +207,6 @@
     justify-content: space-between;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
   }
 
   /*Titulo + Form: Contacto*/
@@ -244,10 +231,11 @@
   
   .paragraph { 
     text-align: left;
-    margin: 120px;
+    margin: 0 auto;
     color: #006D77;
     font-size: 36px;
     font-weight: normal;
+    padding: 30px 0;
   }
 
   /*Estilos Tarjetas Home*/
@@ -269,13 +257,13 @@
 }
   .card{
     width: 100%;
-    margin: 20px;
     border-radius: 6px;
     overflow: hidden;
     background:#fff;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
     transition: all 400ms ease-out;
     cursor: default;
+    margin-bottom: 50px;
 }
 
   .card:hover{
