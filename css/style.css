@@ -13,7 +13,6 @@
     max-width: 100%;
   }
   
-  /*Estilos Header. Los navs afectan al footer tambien*/  
   .container {
     width: 100%;
     margin: auto;
@@ -27,7 +26,8 @@
     justify-content: space-between;
     align-items: center;
   }
-  
+
+  /*Estilos Header. Los navs afectan al footer tambien*/  
   header {
     background-color: #006D77;
     position: sticky;
@@ -42,21 +42,11 @@
     margin-right:0px;
   }
 
-/*Estilos Header. Los navs afectan al footer tambien*/
   #logo{
     display: block;
     max-width: 50px;
     height: auto;
 
-  }
-
-  .nav_list2 {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-    padding-left: 450px;
   }
   
   .navbar-nav {
@@ -85,14 +75,14 @@
     opacity: 0.65;
   }
 
-    /*Estilos Footer*/
-    .footer{
-      background-color: #006D77;
-      height: 165px;
-      width: 100%;
-      display:flex;
-    }
-  
+  /*Estilos Footer*/
+  .footer{
+    background-color: #006D77;
+    height: 165px;
+    width: 100%;
+    display:flex;
+    margin-top: 60px;
+  }
   .footer-container{
       background-color: #006D77;
       height: 165px;
@@ -100,7 +90,6 @@
       display:flex;
       justify-content: center;
   }
-  
   .nav_list3 {
     list-style: none;
     display: flex;
@@ -111,131 +100,71 @@
   }
   
   /*Estilos Todos los Banners*/
-  .display-2 {
-    text-transform: capitalize;
-    color: #edf6f9;
-    font-size: 50px;
-    font-weight: 50px;
-    display: flex;
-    position:absolute;
-    top: 300px;
-    text-align: center;
-    align-items: center;
-    justify-content:auto;
-  }
 
   /*Estilos Banner Home*/
   #intro-section {
     background-image:linear-gradient(180deg, #006D77, rgba(5, 5, 5, 0.252)), url(../imgs/bannerhp.gif);
-    padding-top: 790px;
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 700px;
     background-repeat: no-repeat round;
     background-size: 100%;
-  }
-
-  /*Estilos Banner Contacto*/
-  #intro-section-contacto {
-    background-image:linear-gradient(0deg, #006D77, rgba(5, 5, 5, 0.03)), url(../imgs/banner-1.jpeg);
-    padding-top: 240px;
-    max-width: 100%;
-    max-height: 100%;
+    text-align:center;
+    justify-content:auto;
+    display:flex;
+    align-items: center;
+    margin-bottom: 40px; 
   }
 
   /*Estilos Banner Nosotros*/
   #intro-section-nosotros {
     background-image:linear-gradient(0deg, #006D77, rgba(5, 5, 5, 0.03)), url(../imgs/banner-2.jpeg);
-    padding-top: 240px;
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat round;
+    background-size: 100%;
+    text-align:start;
+    justify-content:auto;
+    display:flex;
+    margin-bottom: 40px;
   }
 
-  /*Estilos Banner Principios*/
-  #intro-section-principios {
-    background-image:linear-gradient(0deg, #006D77, rgba(5, 5, 5, 0.03)), url(../imgs/banner-3.png);
-    padding-top: 240px;
-    max-width: 100%;
-    max-height: 100%;
+  /*Estilos Banner Contacto*/
+  #intro-section-contacto {
+    background-image:linear-gradient(0deg, #006D77, rgba(5, 5, 5, 0.03)), url(../imgs/banner-1.jpeg);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat round;
+    background-size: 100%;
+    text-align:start;
+    justify-content:auto;
+    display:flex;
+    margin-bottom: 40px;
   }
 
   /*Estilos Banner Proyectos*/
   #intro-section-proyectos {
     background-image:linear-gradient(0deg, #006D77, rgba(5, 5, 5, 0.03)), url(../imgs/banner-4.jpeg);
-    padding-top: 240px;
-    max-width: 100%;
-    max-height: 100%;
-  }
-
-  .display-3 {
-    text-transform: capitalize;
-    color: #edf6f9;
-    font-size: 50px;
-    font-weight: 50px;
-    display: inline-block;
-    position:absolute;
-    top: 100px;
-    text-align: left;
-    margin-top: 50px;
-  }
-
-    /*Estilos parrafo lateral*/
-  .parrafo-lateral {
-    color: #006D77;
-    font-size: 18px;
-    font-weight: 40;
-  }
-
-  /*Estilos cajas laterales*/
-  .img-box1 {
-    text-align: center;
-    width: 533px;
-    height: 439px;
-    object-fit: contain;
-    display: flex;
-    justify-content: center;
-  }
-
-  /*Titulo + Parrafo: Home*/
-  #titulo-parrafo{
     width: 100%;
-    height: 100%;
+    height: 300px;
+    background-repeat: no-repeat round;
+    background-size: 100%;
+    text-align:start;
+    justify-content:auto;
+    display:flex;
+    margin-bottom: 40px;
   }
 
-
-  .row3 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    justify-content: center;
-  }
-
-  /*Titulo + Form: Contacto*/
-  .titulo-form {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-    max-width: 80%;
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .titulo-h2 {
-    text-align: left;
-    margin: 120px;
-    margin-top: 3%;
-    color: #006D77;
-    font-size: 46px;
-  }
-  
-  .paragraph { 
-    text-align: left;
-    margin: 0 auto;
-    color: #006D77;
-    font-size: 36px;
-    font-weight: normal;
-    padding: 30px 0;
+  /*Estilos Banner Principios*/
+  #intro-section-principios {
+    background-image:linear-gradient(0deg, #006D77, rgba(5, 5, 5, 0.03)), url(../imgs/banner-3.png);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat round;
+    background-size: 100%;
+    text-align:start;
+    justify-content:auto;
+    display:flex;
+    margin-bottom: 40px;
   }
 
   /*Estilos Tarjetas Home*/
@@ -265,59 +194,13 @@
     cursor: default;
     margin-bottom: 50px;
 }
-
   .card:hover{
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     transform: translateY(-3%);
 }
-
   .contenido-tarjeta{
-    padding: 15px;
+    padding: 25px 25px;
     text-align: center;
-    margin-bottom: 15px;
-    color: #006D77;
-}
-
-  .contenido-tarjeta a:hover{
-    background: #006D77;
-    color: #fff;
-}
-
-.title-paragraph{
-  width: 100%;
-  padding-left:158px;
-  color: #006D77;
-  font-size: 46px;
-  font-weight: 40;
-  margin-right: 40px;
-  padding-top: 30px;
-}
-
-/*Estilos Titulos bloques de proyectos*/
-.title-paragraph1{
-  width: 100%;
-  color: #006D77;
-  font-size: 46px;
-  font-weight: 40;
-  margin-right: 40px;
-  margin-bottom: 20px;
-  margin-top: 20px;;
-}
-
-#title-paragraph1{
-  width: 50%;
-  color: #006D77;
-  font-size: 46px;
-  font-weight: 40;
-  margin-right: 40px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-
-#title-paragraph{
-  width: 100%;
-  color: #006D77;
-  display:flex;
 }
 
 /*Estilos Formulario*/
@@ -325,18 +208,8 @@
 	width:100%;
 	padding:16px;
 	border-radius:10px;
-	margin:auto;
 	background-color:#83c5be;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
-
-form label{
-	width: 100px;
-	font-weight:normal;
-	display:inline-block;
-}
-
 form input[type="text"],
 form input[type="email"]{
 	width:100%;
@@ -347,7 +220,6 @@ form input[type="email"]{
 	margin:8px 0;
 	display:inline-block;
 }
-
 form input[type="submit"]{
 	width:100%;
 	padding:8px 16px;
@@ -358,18 +230,52 @@ form input[type="submit"]{
 	color:#edf6f9;
 	background-color:#006D77;
 } 
-
 form input[type="submit"]:hover{
 	cursor:pointer;
 }
-
 textarea{
 	width:100%;
-	height:100px;
+	height:50px;
 	border:1px solid #edf6f9;
 	border-radius:3px;
 	background-color:#edf6f9;			
-	margin:8px 0;
+	margin:20px 0;
 	resize:none;
 	display:block;
 }
+
+/*Estilos Tipografias*/
+div h1{
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 42px;
+line-height: 62px;
+color: #edf6f9;
+}
+
+div h2{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400px;
+font-size: 36px;
+line-height: 50px;
+color: #006D77;
+}
+
+div h3{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 24px;
+  line-height: 50px;
+  color: #006D77;
+  }
+
+  div p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #006D77;
+    }
