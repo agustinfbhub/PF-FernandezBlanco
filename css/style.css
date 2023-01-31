@@ -20,6 +20,13 @@
     padding: 12px;
     align-items: center;
   }
+
+  @media (max-width:900px){
+    .container{
+      text-align:center;
+      list-style: none;
+    }
+  }
   
   .row {
     display: flex;
@@ -283,3 +290,11 @@ div h3{
     line-height: 30px;
     color: #006D77;
   }
+
+  @media (max-width:900px){
+    .list-afb{
+      text-align:center;
+      list-style: none;
+    }
+  }
+
