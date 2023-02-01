@@ -1,0 +1,26 @@
+{
+  "name": "sitio-v1.5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agustinfbhub/agustinfbhub.sitiopm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agustinfbhub/agustinfbhub.sitiopm/issues"
+  },
+  "homepage": "https://github.com/agustinfbhub/agustinfbhub.sitiopm#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {},
+  "description": ""
+}
