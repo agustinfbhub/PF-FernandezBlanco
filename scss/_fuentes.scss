@@ -1,0 +1,36 @@
+/*Estilos Tipografias*/
+.div h1{
+  font-family: $fuente;
+  font-style: normal;
+  font-weight: $weight;
+  font-size: $fuente-banner;
+  line-height: $i-alto;
+  color: $blanco;
+}
+
+.div h2{
+  font-family: $fuente;
+  font-style: normal;
+  font-weight: $weight;
+  font-size: $fuente-titulo;
+  line-height: $i-medio;
+  color: $verde-oscuro;
+}
+
+.div h3{
+  font-family: $fuente;
+  font-style: normal;
+  font-weight: $weight;
+  font-size: $fuente-subtitulo;
+  line-height: $i-medio;
+  color: $verde-oscuro;
+}
+
+.div p{
+  font-family: $fuente;
+  font-style: normal;
+  font-weight: $weight;
+  font-size: $fuente-parrafo;
+  line-height: $i-bajo;
+  color: $verde-oscuro;
+  }
