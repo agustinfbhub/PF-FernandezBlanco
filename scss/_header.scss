@@ -1,0 +1,38 @@
+/*Estilos Header. Los navs afectan al footer tambien*/  
+header {
+  background-color: $verde-oscuro;
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+}
+
+#logo{
+  display: block;
+  max-width: 50px;
+  height: auto;
+
+}
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  margin: auto;
+  margin-right:0px;
+  &.navbar-nav a:hover{
+    box-shadow: 0 -7px 0px $blanco inset;
+    padding:3px;
+    transition: all 0.4s ease;
+  }
+}
+
+.nav_link {
+  color: $blanco;
+  display: flex;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &.nav_link:hover,
+  .nav_link:focus {
+    opacity: 0.65;
+  }
+}

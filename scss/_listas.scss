@@ -1,0 +1,18 @@
+
+.list-afb{
+  font-family: $fuente;
+  font-style: normal;
+  font-weight: $weight;
+  font-size: 18px;
+  line-height: 30px;
+  color: $verde-oscuro;
+
+  @media (max-width:900px){
+    &.list-afb{
+      text-align:center;
+      list-style: none;
+    }
+  }
+}
+
+

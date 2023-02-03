@@ -1,0 +1,40 @@
+/*Estilos Formulario*/
+form{
+  width:$total;
+  padding:16px;
+  border-radius:10px;
+  background-color:$verde-claro;
+  }
+  form input[type="text"],
+  form input[type="email"]{
+  width:$total;
+  padding:3px 10px;
+  border:1px solid $verde-oscuro;
+  border-radius:3px;
+  background-color:$blanco;
+  margin:8px 0;
+  display:inline-block;
+  }
+  form input[type="submit"]{
+  width:$total;
+  padding:8px 16px;
+  margin-top:32px;
+  border:1px solid $verde-oscuro;
+  border-radius:5px;
+  display:block;
+  color:$blanco;
+  background-color:$verde-oscuro;
+  } 
+  form input[type="submit"]:hover{
+  cursor:pointer;
+  }
+  textarea{
+  width:$total;
+  height:50px;
+  border:1px solid $blanco;
+  border-radius:3px;
+  background-color:$blanco;     
+  margin:20px 0;
+  resize:none;
+  display:block;
+  }

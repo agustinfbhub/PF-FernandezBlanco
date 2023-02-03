@@ -1,0 +1,35 @@
+/*Estilos Tarjetas Home*/
+.container-tarjetas{
+  width: $total;
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+  padding-bottom: 100px;
+}
+.title-cards{
+  width: $total;
+  max-width: 1080px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+}
+.card{
+  width: $total;
+  border-radius: 6px;
+  overflow: hidden;
+  background:$blanco;
+  box-shadow: 0px 1px 10px $sombra;
+  transition: all 400ms ease-out;
+  cursor: default;
+  margin-bottom: 50px;
+}
+.card:hover{
+  box-shadow: 5px 5px 20px $sombra;
+  transform: translateY(-3%);
+}
+.contenido-tarjeta{
+  padding: 25px 25px;
+  text-align: center;
+}
