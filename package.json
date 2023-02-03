@@ -1,5 +1,5 @@
 {
-  "name": "sitio-v1.5",
+  "name": "Entrega PM",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/agustinfbhub/agustinfbhub.sitiopm.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Agustin Fernandez Blanco",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/agustinfbhub/agustinfbhub.sitiopm/issues"
