@@ -1,13 +1,14 @@
 /*Estilos Tipografias*/
-div h1 {
+h1 {
   font-family: "Montserrat";
   font-style: normal;
+  font-weight: 400px;
   font-size: 42px;
-  line-height: 62px;
+  line-height: 60px;
   color: #FFF;
 }
 
-div h2 {
+h2 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400px;
@@ -16,7 +17,7 @@ div h2 {
   color: #006D77;
 }
 
-div h3 {
+h3 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400px;
@@ -25,7 +26,7 @@ div h3 {
   color: #006D77;
 }
 
-div p {
+p {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400px;
@@ -138,8 +139,8 @@ header {
 
 /*Estilos Todos los Banners*/
 /*Estilos Banner Home*/
-#intro-section {
-  background-image: linear-gradient(180deg, #006D77, rgba(0, 0, 0, 0.2)), url(../imgs/bannerhp.gif);
+.banner-homepage {
+  background-image: linear-gradient(180deg, #006D77, rgba(7, 7, 7, 0.2)), url(../imgs/bannerhp.gif);
   width: 100%;
   height: 700px;
   background-repeat: no-repeat round;
@@ -151,9 +152,8 @@ header {
   margin-bottom: 50px;
 }
 
-/*Estilos Banner Nosotros*/
-#intro-section-nosotros {
-  background-image: linear-gradient(0deg, #006D77, rgba(0, 0, 0, 0.2)), url(../imgs/banner-2.jpeg);
+/*Estilos Banner Paginas Interiores*/
+.banner-paginas-interiores {
   width: 100%;
   height: 300px;
   background-repeat: no-repeat round;
@@ -162,45 +162,27 @@ header {
   justify-content: auto;
   display: flex;
   margin-bottom: 50px;
+  background-image: linear-gradient(0deg, #006D77, rgba(7, 7, 7, 0.2));
+}
+
+/*Estilos Banner Nosotros*/
+.banner-nosotros {
+  background-image: linear-gradient(0deg, #006D77, rgba(7, 7, 7, 0.2)), url(../imgs/banner-2.jpeg);
 }
 
 /*Estilos Banner Contacto*/
-#intro-section-contacto {
-  background-image: linear-gradient(0deg, #006D77, rgba(0, 0, 0, 0.2)), url(../imgs/banner-1.jpeg);
-  width: 100%;
-  height: 300px;
-  background-repeat: no-repeat round;
-  background-size: 100%;
-  text-align: start;
-  justify-content: auto;
-  display: flex;
-  margin-bottom: 50px;
+.banner-contacto {
+  background-image: linear-gradient(0deg, #006D77, rgba(7, 7, 7, 0.2)), url(../imgs/banner-1.jpeg);
 }
 
-/*Estilos Banner Proyectos*/
-#intro-section-proyectos {
-  background-image: linear-gradient(0deg, #006D77, rgba(0, 0, 0, 0.2)), url(../imgs/banner-4.jpeg);
-  width: 100%;
-  height: 300px;
-  background-repeat: no-repeat round;
-  background-size: 100%;
-  text-align: start;
-  justify-content: auto;
-  display: flex;
-  margin-bottom: 50px;
+/*Fondo Proyectos*/
+.banner-proyectos {
+  background-image: linear-gradient(0deg, #006D77, rgba(7, 7, 7, 0.2)), url(../imgs/banner-4.jpeg);
 }
 
-/*Estilos Banner Principios*/
-#intro-section-principios {
-  background-image: linear-gradient(0deg, #006D77, rgba(0, 0, 0, 0.2)), url(../imgs/banner-3.png);
-  width: 100%;
-  height: 300px;
-  background-repeat: no-repeat round;
-  background-size: 100%;
-  text-align: start;
-  justify-content: auto;
-  display: flex;
-  margin-bottom: 50px;
+/*Fondo Principios*/
+.banner-principios {
+  background-image: linear-gradient(0deg, #006D77, rgba(7, 7, 7, 0.2)), url(../imgs/banner-3.png);
 }
 
 /*Estilos Tarjetas Home*/
@@ -227,14 +209,14 @@ header {
   border-radius: 6px;
   overflow: hidden;
   background: #FFF;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 10px rgba(7, 7, 7, 0.2);
   transition: all 400ms ease-out;
   cursor: default;
   margin-bottom: 50px;
 }
 
 .card:hover {
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 20px rgba(7, 7, 7, 0.2);
   transform: translateY(-3%);
 }
 

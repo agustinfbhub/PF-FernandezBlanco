@@ -1,7 +1,7 @@
 /*Estilos Todos los Banners*/
 
 /*Estilos Banner Home*/
-#intro-section {
+.banner-homepage {
   background-image:linear-gradient(180deg, $verde-oscuro, $sombra), url(../imgs/bannerhp.gif);
   width: $total;
   height: $bannerHP;
@@ -14,9 +14,8 @@
   margin-bottom: $alto; 
 }
 
-/*Estilos Banner Nosotros*/
-#intro-section-nosotros {
-  background-image:linear-gradient(0deg, $verde-oscuro, $sombra), url(../imgs/banner-2.jpeg);
+/*Estilos Banner Paginas Interiores*/
+.banner-paginas-interiores{
   width: $total;
   height: $bannerIP;
   background-repeat: no-repeat round;
@@ -25,45 +24,29 @@
   justify-content:auto;
   display:flex;
   margin-bottom: $alto; 
+  background-image:linear-gradient(0deg, $verde-oscuro, $sombra);
+}
+
+/*Estilos Banner Nosotros*/
+.banner-nosotros {
+  background-image:linear-gradient(0deg, $verde-oscuro, $sombra), url(../imgs/banner-2.jpeg);
 }
 
 /*Estilos Banner Contacto*/
-#intro-section-contacto {
+.banner-contacto {
   background-image:linear-gradient(0deg, $verde-oscuro, $sombra), url(../imgs/banner-1.jpeg);
-  width: $total;
-  height: $bannerIP;
-  background-repeat: no-repeat round;
-  background-size: $total;
-  text-align:start;
-  justify-content:auto;
-  display:flex;
-  margin-bottom: $alto; 
 }
 
-/*Estilos Banner Proyectos*/
-#intro-section-proyectos {
+/*Fondo Proyectos*/
+.banner-proyectos {
   background-image:linear-gradient(0deg, $verde-oscuro, $sombra), url(../imgs/banner-4.jpeg);
-  width: $total;
-  height: $bannerIP;
-  background-repeat: no-repeat round;
-  background-size: $total;
-  text-align:start;
-  justify-content:auto;
-  display:flex;
-  margin-bottom: $alto; 
 }
 
-/*Estilos Banner Principios*/
-#intro-section-principios {
+/*Fondo Principios*/
+.banner-principios{
   background-image:linear-gradient(0deg, $verde-oscuro, $sombra), url(../imgs/banner-3.png);
-  width: $total;
-  height: $bannerIP;
-  background-repeat: no-repeat round;
-  background-size: $total;
-  text-align:start;
-  justify-content:auto;
-  display:flex;
-  margin-bottom: $alto; 
 }
+
+
 
 
