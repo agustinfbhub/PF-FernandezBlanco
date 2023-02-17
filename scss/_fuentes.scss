@@ -14,7 +14,7 @@ h2{
   font-weight: $weight;
   font-size: $fuente-titulo;
   line-height: $i-medio;
-  color: $verde-oscuro;
+    color: $verde-oscuro;
 }
 
 h3{
@@ -33,4 +33,19 @@ p{
   font-size: $fuente-parrafo;
   line-height: $i-bajo;
   color: $verde-oscuro;
+  }
+
+  @media screen and (max-width: 900px){
+    h1{
+        font-size:$fuente-titulo;
+    }
+    h2{
+        font-size:$fuente-subtitulo;
+    }
+    h3{
+      font-size:$fuente-parrafo;
+    }
+    p{
+      font-size:$fuente-parrafo-chico;
+    }
   }
